@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders the input correctly 1`] = `
+<label
+  for="test-id"
+>
+  Input test
+</label>
+`;

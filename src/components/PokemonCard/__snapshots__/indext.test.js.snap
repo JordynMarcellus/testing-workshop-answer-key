@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Card renders a pokemon card for a single type 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+<article
+  class="emotion-0 emotion-1"
+>
+  <h1>
+    pikachu
+  </h1>
+  <ul>
+    <span>
+      electric
+    </span>
+  </ul>
+  <img
+    alt="My chonky fave pikachu"
+    src="path/to/img"
+    title="My chonky fave pikachu"
+  />
+</article>
+`;
+
+exports[`Pokemon Card renders a pokemon card for multiple types 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+<article
+  class="emotion-0 emotion-1"
+>
+  <h1>
+    golem
+  </h1>
+  <ul>
+    <span>
+      rock
+    </span>
+    <span>
+      ground
+    </span>
+  </ul>
+  <img
+    alt="My chonky fave golem"
+    src="path/to/img"
+    title="My chonky fave golem"
+  />
+</article>
+`;

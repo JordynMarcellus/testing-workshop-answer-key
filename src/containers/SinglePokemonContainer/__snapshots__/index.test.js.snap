@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SinglePokemonContainer useEffect integration tests renders the loading state 1`] = `
+<div>
+  Loading
+</div>
+`;
+
+exports[`SinglePokemonContainer useEffect integration tests renders the resolved state 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+<article
+  class="emotion-0 emotion-1"
+>
+  <h1>
+    pikachu
+  </h1>
+  <ul>
+    <span>
+      electric
+    </span>
+  </ul>
+  <img
+    alt="My chonky fave pikachu"
+    src="path/to/img"
+    title="My chonky fave pikachu"
+  />
+</article>
+`;
